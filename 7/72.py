@@ -8,7 +8,6 @@ for i in range(len(arr)):
 
 def quantom_tachyon(matrix):
     count = 0
-    vis = set()
     arr = [[0,0] for i in range(len(matrix[0]))]
     for j in range(len(matrix[0])):
         if matrix[0][j] == "S":
