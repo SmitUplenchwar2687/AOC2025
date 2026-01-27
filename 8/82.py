@@ -38,6 +38,6 @@ def circuit(matrix):
         
     res = matrix[last_connection[0]][0] * matrix[last_connection[1]][0] 
     return res
-    
+   
 
 print(circuit(arr))
